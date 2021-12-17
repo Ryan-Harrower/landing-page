@@ -1,4 +1,15 @@
+.header,
+.blocks,
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #header-logo{
     width:auto;
     height:200px;
+}
+ul {
+    list-style: none;
+    display: flex;
 }
