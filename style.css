@@ -1,3 +1,8 @@
+/**#94644c; <-- Lighter brown
+#5c442c <-- Dark Brown
+**/
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -29,11 +34,24 @@ header {
 }
 .block1 {
     background-color: #d0d8c6;
+    align-items: center;
+    justify-content: space-between;
+    gap:16px;
+    height:400px;
 }
-
-#main-logo {
+.signup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width:500px;
+    justify-content: center;
+    align-content: center;
+}
+#main-logo {
+    width:350px;
     height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 20px rgba(92, 68, 44, 0.3);
 }
 #stars, #taco, #avocado, #toast {
     height: 200px;
@@ -60,4 +78,25 @@ a {
 li {
     font-size: 24px;
     
+}
+p {
+    color: #94644c;
+}
+h1 {
+    color: #5c442c;
+    font-size: 42px;
+}
+.button1 {
+    font-size: 24px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: #94644c;
+    color: white;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+.button1:hover {
+    background-color: #d0d8c6;
+    border-color: #94644c;
+    color: #94644c;
 }
