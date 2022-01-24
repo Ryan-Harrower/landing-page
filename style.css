@@ -23,7 +23,7 @@ footer {
 }
 header, footer {
     background-color: #d0d8c6;
-    justify-content: space-around;
+    
 }
 .headercontainer {
     display: flex;
@@ -75,6 +75,29 @@ header, footer {
     margin-top: 100px;
     margin-bottom: 100px;;
 }
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+.finalsignup {
+    display: flex;
+    flex: 1;
+    background-color: #5c442c;
+    font-size: 24px;
+    color: white;
+    padding: 38px;
+    border-radius: 8px;
+    width: 100%;
+    justify-content: space-around;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    
+}
 #main-logo {
     width:350px;
     height: auto;
@@ -105,6 +128,17 @@ header, footer {
     margin-top: -30px;
     
 }
+#text1 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+}
+#text2 {
+    color:white;
+    font-size: 16px;
+    margin: 0px;
+}
 ul {
     list-style: none;
     display: flex;
@@ -134,6 +168,12 @@ h2 {
     color: #5c442c;
     font-size: 38px;
 }
+footer {
+    height: 100px;
+    align-items: center;
+    font-size: 18px;
+    color: #5c442c;
+}
 .button1 {
     font-size: 24px;
     padding: 4px;
@@ -146,5 +186,19 @@ h2 {
 .button1:hover {
     background-color: #d0d8c6;
     border-color: #94644c;
+    color: #94644c;
+}
+.button2 {
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: #5c442c;
+    color: white;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    background-color: #d0d8c6;
+    border-color: #5c442c;
     color: #94644c;
 }
